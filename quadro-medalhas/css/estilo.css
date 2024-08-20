@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;  
+    background-color: gray;
+    }
+img{
+    height: 25px;
+    width: 25px;
+}
+.medalhas{
+ height: 20px;
+ width: 20px;
+}
+td{
+    text-align: center
+}
+.país {
+    text-align: left;
+}
+td{
+    width: 30px;
+}
+td:nth-child(1){
+    width: 15px;
+}
+td:nth-child(3) {
+    text-align:left;
+    width: 200px;
+}
+
+td img:hover{
+    transform:scale(2);
+}
+
+tr:hover {
+    background-color: lightblue;
+}
